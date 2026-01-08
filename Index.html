@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>PWA Sensores + jQuery</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#1976d2">
+
+  <link rel="manifest" href="manifest.json">
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+
+  <h2>PWA + jQuery + Sensores</h2>
+
+  <button id="btnCamera">📷 Abrir câmera</button>
+  <button id="btnLocation">📍 Localização</button>
+  <button id="btnMotion">📱 Acelerômetro</button>
+
+  <br><br>
+
+  <video id="video" width="300" autoplay playsinline></video>
+
+  <pre id="output"></pre>
+
+  <script src="app.js"></script>
+
+</body>
+</html>
